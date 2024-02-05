@@ -1,0 +1,248 @@
+/*Author: Alvaro Jordan Barrera (aljoba)*/
+
+/*PRINCIPAL*/
+body {
+    background-color: #1b2838;
+    color: #c7d5e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #c7d5e0;
+}
+
+/*MENÚ Y FOOTER*/
+header,
+footer {
+    background-color: #171a21;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+}
+
+.inicio img {
+    margin-right: 10px;
+}
+
+header,
+#main {
+    font-size: 2em;
+}
+
+#flecha {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 1.4em;
+}
+
+#logo_p {
+    height: 50px;
+    width: 50px;
+}
+
+/*INICIO*/
+#biblioteca {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+#juegos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.portada {
+    border-radius: 8px/7px;
+}
+
+/*JUEGOS*/
+.main_juegos {
+    margin-top: 30px;
+}
+
+.partes {
+    margin-bottom: 50px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+/*DESCRIPCIÓN*/
+.detalles_principales {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 3em;
+}
+
+.titulo div {
+    margin-right: 30px;
+}
+
+.gris {
+    color: #95A0A8;
+}
+
+.descripcion {
+    width: 600px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+#dato_medio {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.jugar {
+    background-color: #1AAE0E;
+    border-radius: 8px/7px;
+    font-size: 2em;
+    color: white;
+    width: 200px;
+}
+
+#texto_detalles_principales {
+    margin-bottom: 30px;
+}
+
+.captura,
+#titulo,
+#opinion,
+.calificacion,
+.resena,
+.publicar {
+    border-radius: 8px/7px;
+}
+
+.capturas,
+.requisitos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*REQUISITOS*/
+.requisitos,
+.calificacion,
+.resena {
+    background-color: #2a475e;
+}
+
+.requisitos,
+.calificacion,
+.resena,
+.jugar {
+    padding: 15px;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_partes {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.derecha {
+    float: left;
+    margin-left: 90px;
+}
+
+/*REVIEWS*/
+.review {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/*CALIFICACIÓN*/
+.calificacion {
+    margin-right: 30px;
+}
+
+.review_body {
+    font-size: 1.5em;
+    color: #95A0A8;
+}
+
+.estrellas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.estrellas img {
+    margin-left: 5px;
+}
+
+/*RESEÑA*/
+.resena,
+.resena_partes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.resena_partes {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#titulo {
+    width: 400px;
+}
+
+#opinion {
+    resize: none;
+}
+
+#titulo, #opinion {
+    background-color: #c7d5e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.publicar {
+    background-color: #1b2838;
+    color: #c7d5e0;
+    height: 30px;
+    width: 80px;
+}

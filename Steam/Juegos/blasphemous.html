@@ -1,0 +1,256 @@
+<!--Author: Alvaro Jordan Barrera (aljoba)-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Juego Blasphemous">
+    <title>Blasphemous</title>
+
+    <!--Conexión a los diferentes CSS dependiendo del tamaño de la pantalla-->
+    <!--Escritorio first -->
+    <link rel="stylesheet" href="../CSS/principal.css">
+    <link rel="stylesheet" href="../CSS/tablet.css" media="(max-width:1225px)">
+    <link rel="stylesheet" href="../CSS/movil.css" media="(max-width:753px)">
+</head>
+
+<body>
+    <!--Menú principal en la cabecera de la página-->
+    <header>
+        <a href="../inicio.html">
+            <div class="inicio">
+                <div><img src="../Imagenes/logo_Steam.png" alt="Logo Steam" id="logo_steam"> </div>
+                <div class="pequeno">Inicio</div>
+            </div>
+        </a>
+        <a href="https://store.steampowered.com/">
+            <div class="pequeno">Tienda</div>
+        </a>
+        <a href="https://steamcommunity.com/">
+            <div class="pequeno">Comunidad</div>
+        </a>
+        <a href="https://steamcommunity.com/login/home/?goto=">
+            <div class="pequeno">Perfil <img src="../Imagenes/perfil.png" alt="Perfil del usuario"></div>
+        </a>
+    </header>
+
+    <!--El body-->
+    <div class="main_juegos">
+        <!--Descripción del juego-->
+        <div class="partes">
+            <!--Detalles principales -->
+            <div class="detalles_principales">
+                <div id="texto_detalles_principales">
+                    <div class="titulo negrita">
+                        <div id="titulo_principal">Blasphemous</div>
+                        <div><img src="../Imagenes/Blasphemous/PEGI_16.png" alt="PEGI 16" class="pegi"></div>
+                    </div>
+
+                    <div class="gris descripcion">
+                        Una terrible maldición conocida como el Milagro ha caído sobre la tierra de Cvstodia y sus
+                        habitantes.
+
+                        Eres el Penitente, el único superviviente de la masacre de la hermandad del Lamento Mudo.
+
+                        Estás atrapado en un ciclo de penitencia de muerte y resurrección constante, y solo tú puedes
+                        librar al mundo de este destino tan terrible y llegar al origen de tu angustia.
+
+                        Explora este mundo terrorífico y su religión retorcida y descubre los secretos que aguardan
+                        escondidos. Realiza combos devastadores y ejecuciones brutales para castigar a las hordas de
+                        monstruos grotescos y jefes titánicos dispuestos a desgarrarte en mil pedazos.
+                    </div>
+
+                    <div class="datos">
+                        <div id="dato_izquierda">
+                            <div class="gris">Desarrollado por</div> The Game Kitchen
+                        </div>
+                        <div id="dato_medio">
+                            <div class="gris">Publicado por</div> Team17
+                        </div>
+                        <div>
+                            <div class="gris">Fecha de lanzamiento</div> 10/9/2019
+                        </div>
+                    </div>
+
+                    <button type="button" class="jugar">Jugar</button>
+                </div>
+
+                <div>
+                    <img src="../Imagenes/Blasphemous/portada_horizontal_B.jpg" alt="Portada horizontal Blasphemous"
+                        class="captura" id="portada_horizontal">
+                </div>
+            </div>
+
+            <!--Capturas del juego-->
+            <div class="capturas">
+                <img src="../Imagenes/Blasphemous/captura1_B.jpg" alt="Captura mujer Blasphemous" class="captura">
+                <img src="../Imagenes/Blasphemous/captura2_B.jpg" alt="Captura santuario Blasphemous" class="captura">
+                <img src="../Imagenes/Blasphemous/captura3_B.jpg" alt="Captura bestia Blasphemous" class="captura">
+            </div>
+        </div>
+
+        <!--Requisitos de hardware y software para poder jugarlo-->
+        <div class="requisitos partes">
+            <!--Requisitos mínimos-->
+            <div class="tabla">
+                <div class="titulo_partes negrita">Requisitos mínimos</div>
+                <table>
+                    <tr>
+                        <td class="negrita">SO</td>
+                        <td class="derecha">Windows 7</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Arquitectura</td>
+                        <td class="derecha">x64</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Teclado</td>
+                        <td class="derecha">Teclado integrado</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Mouse</td>
+                        <td class="derecha">Mouse integrado</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">DirectX</td>
+                        <td class="derecha">Versión 10</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Memoria</td>
+                        <td class="derecha">4 GB</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Memoria de vídeo</td>
+                        <td class="derecha">4 GB</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Controladora</td>
+                        <td class="derecha">GeForce GTX 260 o Radeon HD 4850</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--Requisitos recomendados-->
+            <div class="tabla">
+                <div class="titulo_partes negrita">Requisitos recomendados</div>
+                <table>
+                    <tr>
+                        <td class="negrita">SO</td>
+                        <td class="derecha">Windows 10</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Arquitectura</td>
+                        <td class="derecha">x64</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Teclado</td>
+                        <td class="derecha">Teclado integrado</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Mouse</td>
+                        <td class="derecha">Mouse integrado</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">DirectX</td>
+                        <td class="derecha">Versión 12</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Memoria</td>
+                        <td class="derecha">4 GB</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Memoria de vídeo</td>
+                        <td class="derecha">4 GB</td>
+                    </tr>
+                    <tr>
+                        <td class="negrita">Controladora</td>
+                        <td class="derecha">GeForce GTX 650 or Radeon HD 5770</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--Reviews del juego -->
+        <div class="review partes">
+            <!--Calificación de la comunidad-->
+            <div class="calificacion">
+                <div class="negrita titulo_partes">Opiniones</div>
+                <div class="review_body">
+                    <div class="estrellas">
+                        <div>4.1</div>
+                        <div><img src="../Imagenes/estrella.png" alt="Estrella de calificación"></div>
+                    </div>
+                    <div>30346 reseñas totales</div>
+                </div>
+            </div>
+
+            <!--Publicar una reseña-->
+            <div class="resena">
+                <div class="negrita titulo_partes">Publicar reseña</div>
+                <div class="review_body">
+                    <form action="servicio.php">
+                        <div class="resena_partes">
+                            <div><label for="nota">Elige una calificación</label></div>
+                            <div>
+                                <input type="radio" id="1" name="nota" value="1">
+                                <label for="1">1</label>
+                                <input type="radio" id="2" name="nota" value="2">
+                                <label for="2">2</label>
+                                <input type="radio" id="3" name="nota" value="3">
+                                <label for="3">3</label>
+                                <input type="radio" id="4" name="nota" value="4">
+                                <label for="4">4</label>
+                                <input type="radio" id="5" name="nota" value="5">
+                                <label for="5">5</label>
+                            </div>
+                        </div>
+
+                        <div class="resena_partes">
+                            <label for="titulo">Agregar un título</label>
+                            <input type="text" id="titulo" name="titulo">
+                        </div>
+
+                        <div class="resena_partes">
+                            <label for="opinion">Escribe tu opinión</label>
+                            <textarea name="opinion" id="opinion" cols="60" rows="8"></textarea>
+                        </div>
+
+                        <div class="resena_partes">
+                            <button type="submit" class="publicar">Publicar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="flecha">
+            <a href="#titulo_principal"><img src="../Imagenes/flecha.png" alt="Flecha de subida"></a>
+        </div>
+    </div>
+
+    <!--Menú secundario en el pie de la página-->
+    <footer class="pequeno">
+        <a href="../inicio.html"><img src="../Imagenes/logo_Steam.png" alt="Logo Steam" id="logo_p"></a>
+        <a href="https://help.steampowered.com/es/?snr=1_44_44_">
+            <div>Ayuda</div>
+        </a>
+        <a href="https://www.valvesoftware.com/en/about">
+            <div>Acerca de Valve</div>
+        </a>
+        <a href="https://store.steampowered.com/privacy_agreement/?snr=1_44_44_">
+            <div>Política de Privacidad</div>
+        </a>
+        <a href="https://store.steampowered.com/legal/?snr=1_44_44_">
+            <div>Información legal</div>
+        </a>
+        <a href="https://store.steampowered.com/steam_refunds/?snr=1_44_44_">
+            <div>Reembolsos</div>
+        </a>
+        <a href="https://store.steampowered.com/account/cookiepreferences/">
+            <div>Cookies</div>
+        </a>
+    </footer>
+</body>
+
+</html>

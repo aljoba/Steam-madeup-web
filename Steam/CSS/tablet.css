@@ -1,0 +1,51 @@
+/*Author: Alvaro Jordan Barrera (aljoba)*/
+
+/*MENÚ*/
+header,
+#main {
+    font-size: 1.7em;
+}
+
+#logo_steam {
+    height: 50px;
+    width: 50px;
+}
+
+/*JUEGOS*/
+/*DESCRIPCIÓN*/
+.detalles_principales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo div {
+    margin-bottom: 0px;
+}
+
+.capturas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.capturas img {
+    margin-bottom: 20px;
+}
+
+/*REQUISITOS*/
+.requisitos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 1em;
+}

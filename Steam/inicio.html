@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de inicio de la biblioteca de videojuegos">
+    <title>Inicio</title>
+
+    <!--Conexión a los diferentes CSS dependiendo del tamaño de la pantalla-->
+    <!--Escritorio first -->
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="stylesheet" href="CSS/tablet.css" media="(max-width:1225px)">
+    <link rel="stylesheet" href="CSS/movil.css" media="(max-width:955px)">
+</head>
+
+<body>
+    <!--Menú principal en la cabecera de la página-->
+    <header>
+        <a href="inicio.html">
+            <div class="inicio">
+                <div><img src="Imagenes/logo_Steam.png" alt="Logo Steam" id="logo_steam"> </div>
+                <div class="pequeno">Inicio</div>
+            </div>
+        </a>
+        <a href="https://store.steampowered.com/">
+            <div class="pequeno">Tienda</div>
+        </a>
+        <a href="https://steamcommunity.com/">
+            <div class="pequeno">Comunidad</div>
+        </a>
+        <a href="https://steamcommunity.com/login/home/?goto=">
+            <div class="pequeno">Perfil <img src="Imagenes/perfil.png" alt="Perfil del usuario"></div>
+        </a>
+    </header>
+
+    <!--Juegos en la biblioteca-->
+    <div id="main">
+        <div id="biblioteca">
+            Biblioteca
+        </div>
+        <div id="juegos">
+            <div>
+                <a href="Juegos/stardew_valley.html" id="sv">
+                    <img src="Imagenes/StardewValley/portada_EV.jpg" alt="Portada Stardew Valley" class="portada">
+                    <div>Stardew Valley</div>
+                </a>
+            </div>
+            <div>
+                <a href="Juegos/elden_ring.html">
+                    <img src="Imagenes/EldenRing/portada_ER.jpg" alt="Portada Elden Ring" class="portada">
+                    <div>Elden Ring</div>
+                </a>
+            </div>
+            <div>
+                <a href="Juegos/blasphemous.html">
+                    <img src="Imagenes/Blasphemous/portada_B.jpg" alt="Portada Blasphemous" class="portada">
+                    <div>Blasphemous</div>
+                </a>
+            </div>    
+        </div>
+
+        <div id="flecha">
+            <a href="#sv"><img src="Imagenes/flecha.png" alt="Flecha de subida"></a>
+        </div>
+    </div>
+
+    <!--Menú secundario en el pie de la página-->
+    <footer class="pequeno">
+        <a href="inicio.html"><img src="Imagenes/logo_Steam.png" alt="Logo Steam" id="logo_p"></a>
+        <a href="https://help.steampowered.com/es/?snr=1_44_44_">
+            <div>Ayuda</div>
+        </a>
+        <a href="https://www.valvesoftware.com/en/about">
+            <div>Acerca de Valve</div>
+        </a>
+        <a href="https://store.steampowered.com/privacy_agreement/?snr=1_44_44_">
+            <div>Política de Privacidad</div>
+        </a>
+        <a href="https://store.steampowered.com/legal/?snr=1_44_44_">
+            <div>Información legal</div>
+        </a>
+        <a href="https://store.steampowered.com/steam_refunds/?snr=1_44_44_">
+            <div>Reembolsos</div>
+        </a>
+        <a href="https://store.steampowered.com/account/cookiepreferences/">
+            <div>Cookies</div>
+        </a>
+    </footer>
+</body>
+
+</html>

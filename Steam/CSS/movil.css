@@ -1,0 +1,73 @@
+/*Author: Alvaro Jordan Barrera (aljoba)*/
+
+/*MENÚ Y FOOTER*/
+.pequeno {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/*INICIO*/
+#juegos, #texto_detalles_principales, .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main div {
+    margin-bottom: 40px;
+}
+
+/*JUEGOS*/
+/*DESCRIPCIÓN*/
+.titulo{
+    font-size: 2.5em;
+}
+
+.pegi {
+    width: 40px;
+    height: 49px;
+}
+
+.descripcion {
+    width: 450px;
+}
+
+.datos, .detalles_principales {
+    display: flex;
+}
+
+#portada_horizontal {
+    width: 420px;
+    height: 236px;
+}
+
+/*REQUISITOS*/
+td {
+    font-size: 1em;
+}
+
+.titulo_partes {
+    font-size: 1.5em;
+}
+
+tr {
+    height: 30px;
+}
+
+/*REVIEWS*/
+.calificacion {
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.review_body {
+    font-size: 1.1em;
+}
+
+.estrellas {
+    font-size: 1.6em;
+}
